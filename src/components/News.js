@@ -64,7 +64,7 @@ const updateNews = async ()=> {
     return (
       <div className="container my-3">
         <h2 className="text-center" style={{margin:"35px 0px", marginTop:'90px'}}>
-          NewsMonkey - Top Headlines From{" "}
+          Newsopolis - Top Headlines From{" "}
           {capitalizeFirstLetter(props.category)}
         </h2>
         {loading && <Spinner />}
